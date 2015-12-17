@@ -1,11 +1,37 @@
 body{
 	background-color:slategray;
-	opacity: .4;
 }
 h1{
 	text-align: center;
+	color:white;
 }
 h2{
 	text-align: center;
+	color:white;
 }
+#header{
+	opacity: .4;
+}
+.banner_image{
+	height:500px;
+	width:500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+}
+#yoda{
+    width: 265px;
+    transform: translate(0%, 30%);
+    margin-left: -13px;
+
+}
+#vader{
+	height: 256px;
+    width: 263px;
+    float: right;
+    transform: translate(0%, 50%);
+    margin-right: -13px;
+}
+
 
