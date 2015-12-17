@@ -10,12 +10,20 @@ h2{
 	color:white;
 	display:none;
 }
+.yodalink{
+	text-decoration: none;
+	color:inherit;
+}
 #light{
     float: left;
     display: none;
     color: #00ff00;
     margin-top: 64px;
     font-size: 30px;
+}
+.vaderLink{
+	text-decoration: none;
+	color:inherit;
 }
 #dark{
 	float:right;
@@ -27,7 +35,7 @@ h2{
 	text-align: center;
 	display:block;
 	margin-right: 150px;
-	color:slategray;
+	color:white;
 }
 #header{
 	display: none;
@@ -49,6 +57,7 @@ h2{
     float: left;
     clear: left;
 }
+
 #vader{
 	height: 256px;
     width: 263px;
