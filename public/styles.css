@@ -11,10 +11,23 @@ h2{
 	display:none;
 }
 #light{
-/*	float:left;*/
+    float: left;
+    display: none;
+    color: #00ff00;
+    margin-top: 64px;
+    font-size: 30px;
 }
 #dark{
 	float:right;
+	display: none;
+	color:red;
+	font-size: 30px;
+}
+#mid{
+	text-align: center;
+	display:block;
+	margin-right: 150px;
+	color:slategray;
 }
 #header{
 	display: none;
@@ -28,17 +41,18 @@ h2{
 	transform: translate(-50%, -30%);
 }
 #yoda{
-    width: 265px;
-/*    transform: translate(0%, 30%);*/
+     width: 265px;
+    /* transform: translate(0%, 30%); */
     margin-left: -13px;
-    padding-top: 50px;
-    position: fixed;
-
+    padding-top: 9px;
+    /* position: fixed; */
+    float: left;
+    clear: left;
 }
 #vader{
 	height: 256px;
     width: 263px;
-    clear:right;
+    clear: right;
     float: right;
 /*    transform: translate(0%, 50%);*/
 /*    margin-right: -13px;*/
