@@ -8,9 +8,16 @@ h1{
 h2{
 	text-align: center;
 	color:white;
+	display:none;
+}
+#light{
+/*	float:left;*/
+}
+#dark{
+	float:right;
 }
 #header{
-	opacity: .4;
+	display: none;
 }
 .banner_image{
 	height:500px;
@@ -22,16 +29,17 @@ h2{
 }
 #yoda{
     width: 265px;
-    transform: translate(0%, 30%);
+/*    transform: translate(0%, 30%);*/
     margin-left: -13px;
+    padding-top: 50px;
+    position: fixed;
 
 }
 #vader{
 	height: 256px;
     width: 263px;
+    clear:right;
     float: right;
-    transform: translate(0%, 50%);
-    margin-right: -13px;
+/*    transform: translate(0%, 50%);*/
+/*    margin-right: -13px;*/
 }
-
-
