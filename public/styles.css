@@ -34,8 +34,9 @@ h2{
 #mid{
 	text-align: center;
 	display:block;
-	margin-right: 150px;
+	margin-right: 190px;
 	color:white;
+	font-size: 25px;
 }
 #header{
 	display: none;
