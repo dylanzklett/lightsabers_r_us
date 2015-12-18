@@ -74,6 +74,18 @@ audio {
 #darkimg img{
 	width: 500px;
 	height: 500px;
+	float: left;
+	display: inline-block;
+	margin: 5px;
+	
+}
+
+#darkimg1 img{
+	width: 500px;
+    height: 500px;
+    float: right;
+    display: inline-block;
+    margin: 5px;
 	
 }
 
