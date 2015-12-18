@@ -1,5 +1,6 @@
 body{
 	background-color:slategray;
+	z-index: -1;
 }
 h1{
 	text-align: center;
@@ -70,23 +71,47 @@ audio {
 /*    transform: translate(0%, 50%);*/
 /*    margin-right: -13px;*/
 }
+/*darkside css*/
 
+#darkimg {
+	float: left;
+	z-index: 1;
+}
 #darkimg img{
 	width: 500px;
 	height: 500px;
-	float: left;
+	/*float: left;*/
 	display: inline-block;
 	margin: 5px;
-	
+	z-index: 1;
 }
 
-#darkimg1 img{
+#darkimg1 {
+	float: right;
+}
+
+img{
 	width: 500px;
     height: 500px;
-    float: right;
+    /*float: right;*/
     display: inline-block;
     margin: 5px;
 	
 }
 
+.quantity {
+	margin-bottom: -300px;
+	clear: both;
+}
+
+.bkimg {
+	background-image: url("images/LV.jpg");
+	z-index: 0;
+	width: 100%;
+}
+p {
+	font-family: "condensed light";
+	font-size: 25px;
+	text-shadow: 2px 2px #FF0000;
+}
 
