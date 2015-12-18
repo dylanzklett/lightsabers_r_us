@@ -10,6 +10,9 @@ h2{
 	color:white;
 	display:none;
 }
+audio {
+	display: none;
+}
 .yodalink{
 	text-decoration: none;
 	color:inherit;
