@@ -10,6 +10,10 @@ h2{
 	color:white;
 	display:none;
 }
+#homewrap{
+	width:1200px;
+	margin:0 auto;
+}
 .yodalink{
 	display: inline-block;
 }
@@ -22,12 +26,18 @@ h2{
 .yodalink img {
 	vertical-align: middle;
 }
+#yoda{
+    width: 265px;
+    padding-top: 9px;
+}
+.lightheader{
+	margin-top: 3px;	
+}
 #light{
-    /*float: left;
-    display: none;*/
     color: #00ff00;
     margin-top: 90px;
     font-size: 30px;
+    text-align: center;
 }
 
 .vaderLink {
@@ -41,23 +51,18 @@ h2{
 	height: 256px;
     width: 263px;
 }
-
 .vaderLink a { 
 	text-decoration: none;
 	color:inherit;
 }
 #dark{
-	/*float:right;
-	display: none;*/
 	color:red;
 	font-size: 30px;
-	/*clear:both;*/
-	/*display: inline-block;*/
+	text-align: center;
 }
 #header{
 	display: none;
 }
-
 .banner_image {
 	display: inline-block;
 }
@@ -66,16 +71,17 @@ h2{
 	height:500px;
 	width:500px;
 	vertical-align: middle;
-/*	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -30%);
-*/}
-#yoda{
-    width: 265px;
-    padding-top: 9px;
 }
-#homewrap{
-	width:1200px;
-	margin:0 auto;
+
+
+/*Lightside styling begins here*/
+
+.leftSaber{
+height:500px;
+width:500px;	
 }
+.middleSaber{
+	height: 500px;
+	width:500px;
+}
+
