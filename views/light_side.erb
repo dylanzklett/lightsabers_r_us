@@ -10,7 +10,7 @@ Welcome to the Light Side.
 		<p>
 			Do you fancy yourself a mean, green, Dark Side-blasting machine? Do you find the company of trees and flowers just as enticing as people? Do you like the taste of dirt? If you answered "Yes!" (or even "eh, maybe") to any of the above, either you're Yoda, or this green lightsaber is for you.
 		</p>
-		<form method="POST" action="/light_side">
+		<form method="GET" action="/checkout">
 
 		<label class="name"for="username">Enter Your Name</label>
 			<input type="text" name="username">
@@ -27,7 +27,7 @@ Welcome to the Light Side.
 		<p>
 			Palpatine and his buddies getting you down? Do you wish you could do more than post emotional Sarah Mclaughlin videos on SpaceBook to help the refugees of Alderaan? We do too, but in the meantime you can soothe your activist angst by making a tax-deductible purchase of this sweet blue lightsaber. 
 		</p>
-		<form method="POST" action="/light_side">
+		<form method="GET" action="/checkout">
 
 		<label class="name"for="username">Enter Your Name</label>
 			<input type="text" name="username">
@@ -44,14 +44,14 @@ Welcome to the Light Side.
 		<p>
 			For the aspiring Jedi who's always sunny, in or out of Philedelphia. Jedi who choose this saber are usually angry at the Dark Side for stomping on their organic vegetable gardens and playing loud, angry music too late at night.
 		</p>
+		<form method="GET" action="/checkout">
+			<label class="name"for="username">Enter Your Name</label>
+				<input type="text" name="username">
 
-		<label class="name"for="username">Enter Your Name</label>
-			<input type="text" name="username">
+			<label class="message"for="password">Enter Your Reason for Buying</label>
+				<textarea for='contact' name="contact" placeholder="How did the Dark Side hurt you?"></textarea>
 
-		<label class="message"for="password">Enter Your Reason for Buying</label>
-			<textarea for='contact' name="contact" placeholder="How did the Dark Side hurt you?"></textarea>
-
-		<input type="submit">
+			<input type="submit">
 		</form>
 	</div>
 </div>
