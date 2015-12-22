@@ -3,10 +3,62 @@ Welcome to the Light Side.
 </h1 class="lightheader">
 
 
-<div class="leftSaber">
-	<img src="images/greensaber.jpeg">
-</div>
+<div class="light_image_wrap">
 
-<div class="middlesaber">
-	<img src="images/yellowsaber.jpeg">
+	<div class="leftSaber">
+		<img src="images/greensaber.jpeg">
+		<p>
+			Do you fancy yourself a mean, green, Dark Side-blasting machine? Do you find the company of trees and flowers just as enticing as people? Do you like the taste of dirt? If you answered "Yes!" (or even "eh, maybe") to any of the above, either you're Yoda, or this green lightsaber is for you.
+		</p>
+		<form method="POST" action="/light_side">
+
+		<label class="name"for="username">Enter Your Name</label>
+			<input type="text" name="username">
+
+		<label class="message"for="password">Enter Your Reason for Buying</label>
+			<textarea for='contact' name="contact" placeholder="How did the Dark Side hurt you?"></textarea>
+
+		<input type="submit">
+		</form>
+	</div>
+		
+	<div class="middleSaber">
+		<img src="images/bluesaber.png">
+		<p>
+			Palpatine and his buddies getting you down? Do you wish you could do more than post emotional Sarah Mclaughlin videos on SpaceBook to help the refugees of Alderaan? We do too, but in the meantime you can soothe your activist angst by making a tax-deductible purchase of this sweet blue lightsaber. 
+		</p>
+		<form method="POST" action="/light_side">
+
+		<label class="name"for="username">Enter Your Name</label>
+			<input type="text" name="username">
+
+		<label class="message"for="password">Enter Your Reason for Buying</label>
+			<textarea for='contact' name="contact" placeholder="How did the Dark Side hurt you?"></textarea>
+
+		<input type="submit">
+		</form>
+	</div>
+		
+	<div class="rightSaber">
+		<img src="images/yellowSaber.jpeg">
+		<p>
+			For the aspiring Jedi who's always sunny, in or out of Philedelphia. Jedi who choose this saber are usually angry at the Dark Side for stomping on their organic vegetable gardens and playing loud, angry music too late at night.
+		</p>
+
+		<label class="name"for="username">Enter Your Name</label>
+			<input type="text" name="username">
+
+		<label class="message"for="password">Enter Your Reason for Buying</label>
+			<textarea for='contact' name="contact" placeholder="How did the Dark Side hurt you?"></textarea>
+
+		<input type="submit">
+		</form>
+	</div>
 </div>
+	<div class="change">
+		<p>
+			Changed your mind?
+		</p> 
+		<p>Click <a href="index.erb">Here</a> for the opportunity to make your choice again.
+		</p>
+	</div>
