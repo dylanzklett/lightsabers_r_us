@@ -105,6 +105,7 @@ img{
 }
 
 .bkimg {
+	margin-top: 20px;
 	z-index: 0;
 	width: 100%;
 }
@@ -119,4 +120,22 @@ h3 {
 	font-family: "condensed light";
 	text-align: center;
 }
+/*checkout page*/
 
+.image{
+	font-size: 30px;
+	width: 50%;
+	height: 100%;
+	background-repeat: no-repeat; 
+	float: right;
+    margin: -507px -175px 10px 10px;
+	}
+
+.order {
+	float: right;
+
+}
+.classch {
+	height: 5px;
+	width: 10px;
+}
