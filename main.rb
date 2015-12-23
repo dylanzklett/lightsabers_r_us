@@ -16,6 +16,12 @@ get '/dark_side' do
 	erb :dark_side
 end
 
+<<<<<<< HEAD
+get '/checkout' do
+	erb :checkout
+end
+=======
 get '/checkout' do 
 	erb :checkout
 end
+>>>>>>> 9fd7d8da88d58a1a8763973b6706e1de21c36712

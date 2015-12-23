@@ -1,5 +1,6 @@
 body{
 	background-color:slategray;
+	z-index: -1;
 }
 h1{
 	text-align: center;
@@ -9,6 +10,9 @@ h2{
 	text-align: center;
 	color:white;
 	display:none;
+}
+audio {
+	display: none;
 }
 #homewrap{
 	width:1200px;
@@ -173,6 +177,82 @@ label.message{
 	display:none;
 }
 
+#vader{
+	height: 256px;
+    width: 263px;
+    clear: right;
+    float: right;
+/*    transform: translate(0%, 50%);*/
+/*    margin-right: -13px;*/
+}
+/*darkside css*/
+
+#darkimg {
+	float: left;
+	z-index: 1;
+}
+#darkimg img{
+	width: 500px;
+	height: 500px;
+	/*float: left;*/
+	display: inline-block;
+	margin: 5px;
+	z-index: 1;
+}
+
+#darkimg1 {
+	float: right;
+}
+
+img{
+	width: 500px;
+    height: 500px;
+    /*float: right;*/
+    display: inline-block;
+    margin: 5px;
+	
+}
+
+.quantity {
+	margin-bottom: -300px;
+	clear: both;
+}
+
+.bkimg {
+	margin-top: 20px;
+	z-index: 0;
+	width: 100%;
+}
+p {
+	font-family: "condensed light";
+	font-size: 25px;
+	text-shadow: 2px 2px #FF0000;
+}
+h3 {
+	font-size: 75px;
+	text-shadow: 2px 2px #ff0000;
+	font-family: "condensed light";
+	text-align: center;
+}
+/*checkout page*/
+
+.image{
+	font-size: 30px;
+	width: 50%;
+	height: 100%;
+	background-repeat: no-repeat; 
+	float: right;
+    margin: -507px -175px 10px 10px;
+	}
+
+.order {
+	float: right;
+
+}
+.classch {
+	height: 5px;
+	width: 10px;
+}
 /*Checkout styling begins here*/
 .background-image{
 	width:100%;
