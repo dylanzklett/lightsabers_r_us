@@ -11,58 +11,133 @@ h2{
 	color:white;
 	display:none;
 }
+<<<<<<< HEAD
 audio {
 	display: none;
+=======
+#homewrap{
+	width:1200px;
+	margin:0 auto;
+>>>>>>> 9fd7d8da88d58a1a8763973b6706e1de21c36712
 }
 .yodalink{
+	display: inline-block;
+}
+
+.yodalink a {
 	text-decoration: none;
 	color:inherit;
 }
-#light{
-    float: left;
-    display: none;
-    color: #00ff00;
-    margin-top: 64px;
-    font-size: 30px;
+
+.yodalink img {
+	vertical-align: middle;
 }
-.vaderLink{
+#yoda{
+    width: 265px;
+    padding-top: 9px;
+}
+.lightheader{
+	margin-top: 3px;
+	text-shadow: 2px 2px #66ff00;
+}
+#light{
+    color: #00ff00;
+    margin-top: 90px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.vaderLink {
+	display: inline-block;
+}
+
+.vaderLink img {
+	vertical-align: middle;
+	margin-bottom: 80px;
+	padding-top: 9px;
+	height: 256px;
+    width: 263px;
+}
+.vaderLink a { 
 	text-decoration: none;
 	color:inherit;
 }
 #dark{
-	float:right;
-	display: none;
 	color:red;
 	font-size: 30px;
-}
-#mid{
 	text-align: center;
-	display:block;
-	margin-right: 190px;
-	color:white;
-	font-size: 25px;
 }
 #header{
 	display: none;
 }
-.banner_image{
-	height:500px;
-	width:500px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -30%);
-}
-#yoda{
-     width: 265px;
-    /* transform: translate(0%, 30%); */
-    margin-left: -13px;
-    padding-top: 9px;
-    /* position: fixed; */
-    float: left;
-    clear: left;
+.banner_image {
+	display: inline-block;
 }
 
+.banner_image img {
+	height:500px;
+	width:500px;
+	vertical-align: middle;
+}
+
+
+/*Lightside styling begins here*/
+.light_image_wrap{
+	margin-left: 25px;
+	margin-right: 25px;
+	width:1040px;
+	margin:0 auto;
+}
+form{
+	text-align: center;
+	width:150px;
+	margin: 0 auto;
+}
+label.name{
+	display:block;
+}
+label.message{
+	display:block;
+}
+.leftSaber img{
+	height:300px;
+	width:300px;
+	vertical-align: middle;
+}
+.leftSaber{
+	float:left;
+	width:300px;
+	display:block;s
+}
+.middleSaber img{
+	height: 300px;
+	width:300px;
+	vertical-align: middle;
+	margin-left: 80px;
+}
+.middleSaber{
+	float:left;
+	width:300px;
+	display:block;
+	margin-left:65px;
+}
+.rightSaber img{
+	height:300px;
+	width:300px;
+	vertical-align: middle;
+}
+.rightSaber{
+	float:right;
+	width:300px;
+	display:block;
+}
+.change{
+	clear:both;
+	margin-top: 25px;
+	text-align: center;
+}
+
+<<<<<<< HEAD
 #vader{
 	height: 256px;
     width: 263px;
@@ -138,4 +213,14 @@ h3 {
 .classch {
 	height: 5px;
 	width: 10px;
+=======
+/*Checkout styling begins here*/
+.background-image{
+	width:100%;
+	height:300px;
+}
+.footer{
+	color:white;
+	text-align: center;
+>>>>>>> 9fd7d8da88d58a1a8763973b6706e1de21c36712
 }
