@@ -47,6 +47,8 @@ audio {
 
 .vaderLink {
 	display: inline-block;
+    position: absolute;
+    margin-top: 59px;
 }
 
 .vaderLink img {
@@ -182,8 +184,6 @@ label.message{
     width: 263px;
     clear: right;
     float: right;
-/*    transform: translate(0%, 50%);*/
-/*    margin-right: -13px;*/
 }
 /*darkside css*/
 
@@ -191,30 +191,18 @@ label.message{
 	float: left;
 	z-index: 1;
 }
-#darkimg img{
-	width: 500px;
-	height: 500px;
-	/*float: left;*/
-	display: inline-block;
-	margin: 5px;
-	z-index: 1;
-}
-
-#darkimg1 {
-	float: right;
-}
-
-img{
+#darkimg1 img{
 	width: 500px;
     height: 500px;
-    /*float: right;*/
     display: inline-block;
     margin: 5px;
+    float: right;
 	
 }
 
 .quantity {
 	margin-bottom: -300px;
+	text-align: center;
 	clear: both;
 }
 
@@ -223,42 +211,29 @@ img{
 	z-index: 0;
 	width: 100%;
 }
-p {
+.darkP {
 	font-family: "condensed light";
 	font-size: 25px;
 	text-shadow: 2px 2px #FF0000;
+	margin-top:0px;
+	text-align: center;
 }
-h3 {
+.darkhead {
 	font-size: 75px;
 	text-shadow: 2px 2px #ff0000;
 	font-family: "condensed light";
 	text-align: center;
-}
-/*checkout page*/
-
-.image{
-	font-size: 30px;
-	width: 50%;
-	height: 100%;
-	background-repeat: no-repeat; 
-	float: right;
-    margin: -507px -175px 10px 10px;
-	}
-
-.order {
-	float: right;
-
-}
-.classch {
-	height: 5px;
-	width: 10px;
 }
 /*Checkout styling begins here*/
 .background-image{
 	width:100%;
 	height:300px;
 }
+.form{
+	color:white;
+}
 .footer{
 	color:white;
+	font-size: 20px;
 	text-align: center;
 }
