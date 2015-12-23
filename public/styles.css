@@ -11,14 +11,12 @@ h2{
 	color:white;
 	display:none;
 }
-<<<<<<< HEAD
 audio {
 	display: none;
-=======
+}
 #homewrap{
 	width:1200px;
 	margin:0 auto;
->>>>>>> 9fd7d8da88d58a1a8763973b6706e1de21c36712
 }
 .yodalink{
 	display: inline-block;
@@ -136,8 +134,49 @@ label.message{
 	margin-top: 25px;
 	text-align: center;
 }
+/*darkside css*/
 
-<<<<<<< HEAD
+#darkimg {
+	float: left;
+	z-index: 1;
+}
+#darkimg img{
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	margin: 5px;
+	z-index: 1;
+}
+
+#darkimg1 {
+	float: right;
+}
+
+.quantity {
+	margin-bottom: -300px;
+	clear: both;
+}
+
+.bkimg {
+	margin-top: 20px;
+	z-index: 0;
+	width: 100%;
+}
+.darkP {
+	font-family: "condensed light";
+	font-size: 25px;
+	text-shadow: 2px 2px #FF0000;
+}
+.darkhead {
+	font-size: 75px;
+	text-shadow: 2px 2px #ff0000;
+	font-family: "condensed light";
+	text-align: center;
+}
+.darkaudio{
+	display:none;
+}
+
 #vader{
 	height: 256px;
     width: 263px;
@@ -213,7 +252,7 @@ h3 {
 .classch {
 	height: 5px;
 	width: 10px;
-=======
+}
 /*Checkout styling begins here*/
 .background-image{
 	width:100%;
@@ -222,5 +261,4 @@ h3 {
 .footer{
 	color:white;
 	text-align: center;
->>>>>>> 9fd7d8da88d58a1a8763973b6706e1de21c36712
 }
